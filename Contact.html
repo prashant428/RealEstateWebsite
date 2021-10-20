@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+</style>
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Anup Realty</h1>
+  </header>
+    <nav>
+	<ul>
+      <li ><a href="home.html">Home</a></li>
+      <li><a href="listings.html">Listings</a>
+      <ul>
+      <li><a href="house1.html">House 1</a></li>
+      <li><a href="house_2.html">House 2</a></li>
+      <li> <a href="house%203.html">House 3</a></li>
+      </ul>
+
+      </li>
+      <li id="page">Contact</li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+	 </ul>
+    </nav>
+    <main>
+    <h2>Find Your Home</h2>
+    
+  <form method="post" action="mailto:anupRai@anupRaiRE.ca">
+  <fieldset>
+  <legend>Your Information</legend>
+     <label for="txtFirstName">First Name:</label><input name="txtFirstName" type="text" required="required" tabindex="1" value="required field" /><br>
+     <label for="txtLastName">Last Name:</label><input name="txtLastName" type="text" required="required" tabindex="3" value="required field"/><br>
+      <label for="txtPhone">Phone Number:</label><input name="txtPhone" type="tel" tabindex="5" /><br>
+    <label for="txtEmail">Email: </label>
+  <input name="txtEmail" type="email" required="required" tabindex="7" value="required field" /><br>
+ 
+       <label for="txtAddress">Address:</label><input name="txtAddress" type="text" tabindex="9" /><br>
+        
+        </fieldset>
+        <fieldset>
+        <legend>Desired property type</legend>
+        <label for="lstType">Type of property:</label> <select name="lstType" size="1" tabindex="11">
+				<option selected="">Detached</option>
+				<option>Townhouse</option>
+				<option>Semi-detached</option>
+				<option>Cottage</option>
+				<option>Condominium</option>
+			</select><br>
+         <label for="lstBedroom">Number of Bedrooms:</label><select name="lstBedroom" size="1" tabindex="13">
+				<option selected="">1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select><br>
+          <label for="lstBathroom">Number of Bathrooms</label><select name="lstBathroom" size="1" tabindex="15">
+				<option selected="">1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select><br>
+           <label for="lstSizeRange">Size :</label><select name="lstSizeRange" size="1" tabindex="17">
+				<option selected="">up to 1000 sqft</option>
+				<option>1000-2000 sqft</option>
+				<option>2000-3000 sqft</option>
+				<option>3000-4000 sqft</option>
+				<option>5000 sqft and up</option>
+			</select><br>
+            <label for="lstPriceRange">Price: </label><select name="lstPriceRange" size="1" tabindex="19">
+				<option selected="">up to $600000</option>
+				<option>$600000-$1000000</option>
+				<option>$1000000-$1500000</option>
+				<option>1500000 to 2000000</option>
+				<option>2000000 and up</option>
+			</select><br>
+        </fieldset>
+        <fieldset>
+        <legend>Other Information</legend>
+         <label for="txtMoveInDate">Move-in Date:</label><input name="txtMoveInDate" type="date" tabindex="21" /><br>
+          <label for="txtMessage">Message:</label><textarea name="txtMessage" cols="35" rows="5" tabindex="23">Please write here any message you may wish to send.</textarea><br>
+         </fieldset>
+         <input class="btn" name="btnSend" type="submit" value="Find your Dream Home!" tabindex="25" />
+         <input class="btn"name="btnClear" type="reset" value="Clear Form" tabindex="27" />
+    </form>
+	</main>
+   <aside>
+    <figure>
+    <img src="images/AgentPic.jpg" width="300" height="400" alt="Anup Rai">
+   </figure>
+   <p>Phone: (416) 987-6543</p>
+   <p>Email: <a href="mailto:arai@anupRaiRE.ca">arai123@anupRaiRE.ca</a></p>
+  </aside>
+  <footer>
+  <a style="float:left">Back to Index</a>
+	Copyright &copy; Prashant Sharma 2021
+  </footer>
+ </div>
+</body>
+</html>
+
+
